@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #202b38;
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -12,12 +12,13 @@ body {
 
 h1 {
     font-size: 40px;
-    margin-bottom: 10px;
+
 }
 
 label {
     font-size: 18px;
     margin-right: 10px;
+    margin: 10px;
 }
 
 input[type="text"] {
@@ -26,6 +27,7 @@ input[type="text"] {
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
+    width: 220px;
 }
 
 select {
@@ -34,6 +36,7 @@ select {
     border-radius: 5px;
     font-size: 16px;
     margin-bottom: 10px;
+    width: 240px;
 }
 
 button {
@@ -44,14 +47,45 @@ button {
     color: white;
     font-size: 16px;
     cursor: pointer;
+    margin: 10px
 }
 
 button:hover {
     background-color: #2980b9;
 }
 
+footer {
+    justify-self: flex-end;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 10px;
+    color: #70777f;
+}
+
+a {
+    color: #1c76c5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body>footer {
+    margin-top: 40px;
+}
+
 #optionError {
     font-size: 20px;
     padding-top: 10px;
     color: grey;
+}
+
+.footer {
+    text-align: end;
+}
+
+.cafe {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
 }

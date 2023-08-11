@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles.css">
     <link rel="icon" href="./src/img/icon.svg">
+    <!-- FONT AWESOME -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <script src="./src/script.js"></script>
     <title>Buscar Tweets</title>
 </head>
 
 <body>
-    <h1>Carpetazo</h1>
+    <h1>Carpetazo Maker</h1>
     <label for="twitterUsername">Usuario de Twitter:</label>
     <input type="text" id="twitterUsername" placeholder="@" />
     <br>
@@ -27,6 +29,17 @@
     </select>
     <button onclick="buscarTweets()">Carpetear</button>
     <div id="optionError"></div>
+
+    <footer class="footer">
+        Creado por
+        <a href="https://github.com/paluzz" target="_blank" rel="noreferrer">Paluzz</a>
+        |
+
+        <a class="cafe" href="https://cafecito.app/damianp_" target="_blank" rel="noreferrer"> Invitame un cafecito
+            <i class="fa-solid fa-mug-saucer" style="color: #9a9898;"></i>
+        </a>
+
+    </footer>
 </body>
 
 </html>
