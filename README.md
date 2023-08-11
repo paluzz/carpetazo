@@ -14,3 +14,12 @@ Este es un proyecto de una aplicación web simple que te permite buscar tweets p
 
 - Navegador web moderno que admita JavaScript.
 
+
+## Contacto
+
+
+Puedes seguirme por [Twitter](https://twitter.com/DamianP_).
+
+¡Gracias por tu interés! siempre se agradecen [colaboraciones](https://cafecito.app/damianp_)!.
+
+ Puedes encontrar la version web -> [aquí](https://paluzz.github.io/carpetazo/).
