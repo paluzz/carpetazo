@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.svg">
+    <title>Buscar Tweets</title>
+</head>
+
+<body>
+    <h1>Carpetazo</h1>
+    <label for="twitterUsername">Usuario de Twitter:</label>
+    <input type="text" id="twitterUsername" placeholder="@" />
+    <br>
+    <label for="filtros">Carpetear por: </label>
+    <select name="" id="filtros">
+        <option value="seleccione" disabled selected>Seleccioná...</option>
+        <option value="machistas">Tweets machistas</option>
+        <option value="homofob">Tweets homofóbicos</option>
+        <option value="racistas">Tweets racistas</option>
+        <option value="aborto">Tweets aborteros</option>
+        <option value="messi">Tweets anti-Messi pre 2021</option>
+        <option value="electoral">[ESPECIAL] Electoral</option>
+    </select>
+    <button onclick="buscarTweets()">Carpetear</button>
+    <div id="optionError"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
