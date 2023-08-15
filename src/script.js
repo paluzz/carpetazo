@@ -54,6 +54,10 @@ function buscarTweets() {
                 searchQuery += searchWords('milei', 'massa', 'larreta', 'bullrich');
                 openWindow(searchQuery);
                 break;
+            case 'cuarentena':
+                searchQuery += searchWords('pandemia', 'cuarentena', 'covidiotas', 'negacionista');
+                openWindow(searchQuery);
+                break;
             case 'seleccione':
                 optionError.innerHTML = 'Ingrese una opción válida!!!';
                 resetError();
