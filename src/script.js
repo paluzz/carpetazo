@@ -55,7 +55,7 @@ function buscarTweets() {
                 openWindow(searchQuery);
                 break;
             case 'cuarentena':
-                searchQuery += searchWords('pandemia', 'cuarentena', 'covidiotas', 'anti vacuna');
+                searchQuery += searchWords('pandemia', 'cuarentena', 'vacunas');
                 openWindow(searchQuery);
                 break;
             case 'seleccione':
